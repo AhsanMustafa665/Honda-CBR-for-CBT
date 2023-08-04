@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+@media only screen and (max-width: 411px) and (min-width: 0px) {
+  .banner-img {
+    margin-top: 20px;
+    width: 90%;
+  }
+}
